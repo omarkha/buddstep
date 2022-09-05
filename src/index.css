@@ -40,7 +40,7 @@ code {
 }
 
 .intro-copy {
-  padding: 233px;
+  padding: 233px 0x;
 }
 
 .intro h1 {
@@ -97,7 +97,9 @@ code {
   align-items: center;
   background: rgba(25, 25, 25, 0.62);
   padding: 21px;
+  box-sizing: border-box;
   border-radius: 2px;
+  border: 1px solid rgb(230, 101, 0);
 }
 
 .signupform input[type="text"] {
@@ -133,4 +135,18 @@ footer {
   color: rgb(230, 230, 230);
   box-shadow: inset 200px 0 0 0 rgb(230, 101, 0);
   border: 2px solid rgb(230, 101, 0);
+}
+
+@media screen and (max-width: 960px) {
+  .signupform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(25, 25, 25, 0.62);
+    padding: 21px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid rgb(230, 101, 0);
+  }
 }

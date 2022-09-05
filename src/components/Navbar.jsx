@@ -8,11 +8,11 @@ const Navbar = () => {
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-bs-controls="navbarTogglerDemo03"
+          aria-bs-expanded="false"
+          aria-bs-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
