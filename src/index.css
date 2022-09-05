@@ -36,11 +36,11 @@ code {
 }
 
 .intro {
-  padding: 144px 0 233px 0;
+  padding: 144px 0 144px 0;
 }
 
-.intro-copy {
-  padding: 233px 0x;
+.salesform {
+  padding: 233px 0px;
 }
 
 .intro h1 {
@@ -70,7 +70,7 @@ code {
   text-shadow: 0 0 13px #fff;
 }
 
-.intro-copy {
+.salesform {
   margin: 89px auto;
 }
 
@@ -95,8 +95,10 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(25, 25, 25, 0.62);
+  background: rgba(230, 101, 25, 0.37);
   padding: 21px;
+  width: 677px;
+  margin: 0 auto;
   box-sizing: border-box;
   border-radius: 2px;
   border: 1px solid rgb(230, 101, 0);

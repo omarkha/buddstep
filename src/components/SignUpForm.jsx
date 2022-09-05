@@ -2,7 +2,7 @@ import React from "react";
 
 const SignUpForm = () => {
   return (
-    <div className="signupform">
+    <div className="signupform" data-aos="fade-up">
       <div>
         <h3 className="text-light">Get Your Tickets Today!</h3>
         <p className="text-light">
