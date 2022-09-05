@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(25, 25, 25);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(230, 63, 0);
+}
+
+.navbar ul li {
+  cursor: pointer;
+  margin: 0 21px;
+  color: #fff;
+}
+
+.navbar ul li:hover {
+  cursor: pointer;
+  margin: 0 21px;
+  color: rgba(230, 101, 25, 1);
+}
+
+.navbar ul {
+}
+
+.intro {
+  padding: 144px 0 233px 0;
+}
+
+.intro-copy {
+  padding: 233px;
+}
+
+.intro h1 {
+  font-size: 144px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(230, 101, 25, 1) 35%,
+    rgba(255, 25, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 13px rgb(230, 101, 0);
+}
+
+.intro h3 {
+  font-size: 34px;
+  background: -webkit-linear-gradient(rgb(230, 230, 25), rgb(230, 63, 25));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  text-shadow: 0 0 13px #fff;
+}
+
+.intro-copy {
+  margin: 89px auto;
+}
+
+#banner {
+  margin: 34px auto;
+  width: 100%;
+  box-shadow: 0 0 13px #ff2233;
+  animation: animbanner 1.62s ease-in-out infinite;
+}
+
+@keyframes animbanner {
+  from {
+    box-shadow: 0 0 13px #fff;
+  }
+  to {
+    box-shadow: 0 0 13px #ff2233;
+  }
+}
+
+.signupform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(25, 25, 25, 0.62);
+  padding: 21px;
+  border-radius: 2px;
+}
+
+.signupform input[type="text"] {
+  height: 34px;
+  width: 377px;
+  text-align: center;
+  border-radius: 21px;
+  margin: 5px 0;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+footer {
+  padding: 144px 0;
+  background-color: rgb(230, 63, 25);
+  color: #fff;
+}
+
+.btn-slide {
+  background: rgb(25, 25, 25);
+  cursor: pointer;
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid rgb(230, 63, 0);
+  border-radius: 3px;
+  padding: 13px 34px;
+  box-shadow: inset 0 0 0 0 rgb(230, 63, 0);
+  -webkit-transition: ease-out 0.38s;
+  -moz-transition: ease-out 0.38s;
+  transition: ease-out 0.38s;
+}
+.btn-slide:hover {
+  color: rgb(230, 230, 230);
+  box-shadow: inset 200px 0 0 0 rgb(230, 101, 0);
+  border: 2px solid rgb(230, 101, 0);
+}
