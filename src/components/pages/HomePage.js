@@ -22,7 +22,7 @@ const HomePage = () => {
                     Get Lit within the Dubstep zone!
                   </h5>
                   <h3 className="display-3 text-light">
-                    Music Festival operated by Buddstep
+                    Music Festival operated by Shay Media Corps
                   </h3>
                 </div>
                 <img src={alien2} />
