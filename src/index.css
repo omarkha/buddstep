@@ -40,7 +40,7 @@ code {
 }
 
 .salesform {
-  padding: 233px 0px;
+  padding: 89px 0px;
 }
 
 .intro h1 {
@@ -75,7 +75,7 @@ code {
 }
 
 #banner {
-  margin: 34px auto;
+  margin: 89px auto;
   width: 100%;
   box-shadow: 0 0 13px #ff2233;
   animation: animbanner 1.62s ease-in-out infinite;
@@ -95,13 +95,22 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(230, 101, 25, 0.37);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 25, 230, 0.62) 0%,
+    rgba(0, 25, 101, 0.62) 35%,
+    rgba(255, 25, 0, 1) 100%
+  );
   padding: 21px;
   width: 677px;
   margin: 0 auto;
   box-sizing: border-box;
   border-radius: 2px;
-  border: 1px solid rgb(230, 101, 0);
+  border: 1px solid rgb(0, 101, 230);
+}
+
+.signupform p {
+  text-shadow: 0 0 5px #fff;
 }
 
 .signupform input[type="text"] {
