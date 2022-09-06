@@ -30,6 +30,25 @@ const PurchasePage = () => {
             <label>Number of Tickets</label>
             <input type="text" placeholder="1" />
           </div>
+          <hr />
+          <div className="column">
+            <div className="inputelement row">
+              <label>City</label>
+              <input placeholder="eg. Colorado Springs" type="text" />
+            </div>
+            <div className="inputelement row">
+              <label>State</label>
+              <input type="text" placeholder="Colorado" />
+            </div>
+            <div className="inputelement row">
+              <label>Zip Code</label>
+              <input placeholder="eg. 14323" type="text" />
+            </div>
+            <div className="inputelement row">
+              <label>Street Address</label>
+              <input type="text" placeholder="eg. 505 South Adams Rd." />
+            </div>
+          </div>
           <div className="inputelement row">
             <label>We are excited to see you there!</label>
             <button className="btn-slide-purchase">Purchase</button>

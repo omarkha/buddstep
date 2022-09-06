@@ -54,14 +54,15 @@ const HomePage = () => {
               today!
               <br />
               <br />
-              Feel the ecstasy like waves of pleasure rippling through you.
               <br />
               <br />
               <h3 className="display-6 text-warning">
                 Let us shine a light that levitates you onto our alien
-                spaceship!
+                spaceship. and you Feel the ecstasy like waves of pleasure
+                rippling through you.
                 <br />
-                See you at Area51!
+                <br />
+                We're Excited to See you in the Area51 Zone!
               </h3>
             </p>
           </section>
