@@ -1,10 +1,11 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
+import logo from "../media/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
-      <div className="container">
+    <nav className="navbar-expand-lg navbar-dark bg-dark">
+      <div className="navbar container">
         <button
           class="navbar-toggler"
           type="button"
@@ -16,9 +17,11 @@ const Navbar = () => {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
+          <img src={logo} id="brandlogo" />
           Area51 Music
-        </a>
+        </Link>
+
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item">

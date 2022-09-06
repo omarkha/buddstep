@@ -15,9 +15,16 @@ code {
     monospace;
 }
 
+label {
+  color: #fff;
+}
+
 .navbar {
   display: flex;
-  background-color: rgb(230, 63, 0);
+}
+
+.navbar a {
+  color: #fff;
 }
 
 .navbar ul li {
@@ -26,21 +33,53 @@ code {
   color: #fff;
 }
 
-.navbar ul li:hover {
-  cursor: pointer;
-  margin: 0 21px;
+.navbar a:hover {
   color: rgba(230, 101, 25, 1);
+}
+
+#logo {
+  width: 38%;
 }
 
 .navbar ul {
 }
 
 .intro {
-  padding: 144px 0 144px 0;
+  padding: 55px 0 144px 0;
+}
+
+.intro-copy {
+  padding: 144px 0;
 }
 
 .salesform {
   padding: 89px 0px;
+}
+
+#alien {
+  position: sticky;
+  left: 613px;
+  transform: scale(115%);
+  animation: animalien 15.618s ease-in-out infinite;
+}
+
+@keyframes animalien {
+  37% {
+    left: 595px;
+    transform: scale(100%);
+  }
+  62% {
+    left: 615px;
+    transform: scale(138%);
+  }
+  86% {
+    left: 602px;
+    transform: scale(105%);
+  }
+  100% {
+    left: 613px;
+    transform: scale(115%);
+  }
 }
 
 .intro h1 {
@@ -49,12 +88,12 @@ code {
   background: linear-gradient(
     90deg,
     rgba(25, 25, 25, 1) 0%,
-    rgba(230, 101, 25, 1) 35%,
-    rgba(255, 25, 0, 1) 100%
+    rgba(25, 101, 230, 1) 35%,
+    rgba(0, 25, 255, 1) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 13px rgb(230, 101, 0);
+  text-shadow: 0 0 13px rgba(101, 230, 230, 1);
 }
 
 .intro h3 {
@@ -72,6 +111,10 @@ code {
 
 .salesform {
   margin: 89px auto;
+}
+
+.aliensection {
+  padding: 144px 0;
 }
 
 #banner {
@@ -122,10 +165,60 @@ code {
   border: 1px solid rgb(230, 230, 230);
 }
 
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+#brandlogo {
+  background-image: url("./media/logo.png");
+  background-size: contain;
+  width: 55px;
+  height: 55px;
+}
+
 footer {
   padding: 144px 0;
-  background-color: rgb(230, 63, 25);
+  background-color: rgb(40, 40, 40);
   color: #fff;
+}
+
+.headline {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 25, 1) 0%,
+    rgba(255, 230, 25, 1) 35%,
+    rgba(255, 255, 25, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 21px rgba(255, 255, 25, 1);
+}
+
+.purchaseinfo {
+  padding: 34px 0;
+}
+
+.btn-slide-purchase {
+  background: rgb(25, 25, 25);
+  cursor: pointer;
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid rgb(230, 63, 0);
+  border-radius: 3px;
+  padding: 13px 34px;
+  box-shadow: inset 0 0 0 0 rgb(230, 63, 0);
+  -webkit-transition: ease-out 0.38s;
+  -moz-transition: ease-out 0.38s;
+  transition: ease-out 0.38s;
+  width: 144px;
+  height: 55px;
+}
+.btn-slide-purchase:hover {
+  color: rgb(25, 25, 25);
+  box-shadow: inset 200px 0 0 0 rgb(101, 230, 0);
+  border: 2px solid rgb(101, 230, 0);
 }
 
 .btn-slide {
@@ -146,6 +239,16 @@ footer {
   color: rgb(230, 230, 230);
   box-shadow: inset 200px 0 0 0 rgb(230, 101, 0);
   border: 2px solid rgb(230, 101, 0);
+}
+.inputelement {
+  justify-content: center;
+  align-items: center;
+}
+
+.inputelement input[type="text"] {
+  width: 377px;
+  height: 34px;
+  text-align: center;
 }
 
 @media screen and (max-width: 960px) {

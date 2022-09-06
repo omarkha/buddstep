@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const SignUpForm = () => {
   return (
     <div className="signupform" data-aos="fade-up">
@@ -13,7 +13,9 @@ const SignUpForm = () => {
       </div>
       <input type="text" placeholder="Email" />
       <input type="text" placeholder="Full Name" />
-      <button className="btn-slide">Purchase Ticket</button>
+      <Link className="btn-slide" to="/checkout">
+        Purchase Ticket
+      </Link>
     </div>
   );
 };
